@@ -1,0 +1,9 @@
+<p>child works!</p>
+
+Welcome {{childName}}!
+<br>
+Enter Age <input type="text" #ageInput><br>
+<button (click)="changeAge(ageInput.value)">Set Age</button>
+<br>
+Enter Gender<input type = "text" #gender><br>
+<button (click)="changeGender(gender.value)">Set Gender</button>
